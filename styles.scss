@@ -19,14 +19,14 @@ $shadows-medium: multiple-box-shadow(200);
 $shadows-big:    multiple-box-shadow(100);
 
 html, body {
-  overflow: hidden !important;
+  //overflow: hidden !important;
 }
 
 .wrapper {
   position: absolute;
   top: 0;
   left: 0;
-  height: 100vh !important;
+  height: 160vh !important;
   width: 100vw !important;
   background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%) !important;
   overflow: hidden !important;
@@ -122,6 +122,21 @@ html, body {
   to {
     transform: translateY(-2000px);
   }
+}
+
+.section-header {
+  margin-top: 15vh;
+  color: white;
+  font-family: 'Saira', sans-serif;
+  text-align: center;
+}
+
+
+.media {
+  margin-top: 200px;
+  color: white;
+  font-family: 'Saira', sans-serif;
+  text-align: center;
 }
 
 // timeline
